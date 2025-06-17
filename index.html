@@ -12,8 +12,9 @@
       name="keywords"
       content="coffeeshop, coffee, shop, cafeteria, chai, matcha"
     />
-    <title>Sprint 4</title>
-    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Sprint 4 Cafetería TripleTen</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -129,8 +130,8 @@
                 id="name"
                 name="name"
                 placeholder="Nombre"
-                required
                 class="form__input"
+                required
               />
 
               <label class="form__label" for="comensales">
@@ -143,8 +144,8 @@
                 min="1"
                 max="8"
                 placeholder="1-8"
-                required
                 class="form__input"
+                required
               />
 
               <label class="form__label" for="fecha"> Fecha y hora *</label>
@@ -152,8 +153,8 @@
                 type="date"
                 id="fecha"
                 name="fecha"
-                required
                 class="form__input"
+                required
               />
 
               <label class="form__label" for="email">
@@ -164,8 +165,8 @@
                 id="email"
                 name="email"
                 placeholder="email@email.com"
-                required
                 class="form__input"
+                required
               />
             </fieldset>
 
@@ -182,6 +183,7 @@
                 name="checkbox"
                 required
               />
+
               <label class="form__label form__label_checkbox" for="checkbox"
                 >Acepto los términos de uso</label
               >
@@ -190,8 +192,39 @@
         </section>
       </main>
 
-      <footer class="footer">
-        <!--  agregar código en etapa 2 -->
+      <footer class="footer" id="footer">
+        <div class="footer__circle"></div>
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo_white"
+            class="footer__logo"
+          />
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Redes sociales</h3>
+            
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img
+                  src="./images/facebook_white.svg"
+                  alt="facebook_white"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img
+                  src="./images/instagram_white.svg"
+                  alt="instagram_white"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Instagram</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="footer__copyright">© 2025 Victoria Maldonado</div>
       </footer>
     </div>
   </body>
