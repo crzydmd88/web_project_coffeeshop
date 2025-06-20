@@ -34,6 +34,8 @@
 }
 
 .header__description {
+  display: flex;
+  direction: column;
   font-family: "Noto Serif", serif;
   font-style: normal;
   font-weight: normal;
